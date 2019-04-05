@@ -16,8 +16,8 @@ namespace HttpHacker
 
             config.Routes.MapHttpRoute(
                 name: "DefaultApi",
-                routeTemplate: "api/{controller}/{id}",
-                defaults: new { id = RouteParameter.Optional }
+                routeTemplate: "{*.}",
+                defaults: new { controller = "handler", action="handlerequest", id = RouteParameter.Optional }
             );
         }
     }

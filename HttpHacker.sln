@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27703.2042
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HttpHacker", "HttpHacker\HttpHacker.csproj", "{309B2813-4EF4-4034-BFC8-9C46775528AA}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HttpHacker", "HttpHacker\HttpHacker.csproj", "{5F47EB26-DC7D-4911-AB5A-741CB4C6436A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReverseProxy", "ReverseProxy\ReverseProxy.csproj", "{A120CC69-84BF-4F4D-B3EF-74DE1B9F3B14}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,10 +13,14 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{309B2813-4EF4-4034-BFC8-9C46775528AA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{309B2813-4EF4-4034-BFC8-9C46775528AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{309B2813-4EF4-4034-BFC8-9C46775528AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{309B2813-4EF4-4034-BFC8-9C46775528AA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5F47EB26-DC7D-4911-AB5A-741CB4C6436A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5F47EB26-DC7D-4911-AB5A-741CB4C6436A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5F47EB26-DC7D-4911-AB5A-741CB4C6436A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5F47EB26-DC7D-4911-AB5A-741CB4C6436A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A120CC69-84BF-4F4D-B3EF-74DE1B9F3B14}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A120CC69-84BF-4F4D-B3EF-74DE1B9F3B14}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A120CC69-84BF-4F4D-B3EF-74DE1B9F3B14}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A120CC69-84BF-4F4D-B3EF-74DE1B9F3B14}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
